@@ -1,0 +1,116 @@
+BODY {
+    var { inform[CodigoPostal\ CEI\ CPF\ RG\ NIRF\ TituloEleitoral\ CertificadoDeDispensaDeIncorporaçao\ PIS\ SUS\ CEL\ BANCO\ emprego\ CNPJ\ curso\ DoadorDeSangue\ CarteiraProfissional\ CertidaoDeNascimento\ Averbaçao\ CertidaoDeNascimento(filho(a));]; }
+    var name = MoisesFerreiraDeLima;
+    CPF: 275.551 .158 - 32;
+ nasc: ''/''/''
+    (filho(a)): '';
+    (filho(a)): '';
+    (filho(a)):''
+    curso: FII;
+    cotista: 2013;
+    INVESTIDOR: IB\ B³; {
+        function CodigoPostal(params.inform) {
+            inform[CodigoPostal: ''\''\ Numero: \ ''- SP\ BR](true),
+        };
+
+        function CEI(params.inform) {
+            inform[''](true),
+        };
+
+        function CPF(params.inform) {
+            inform[CPF: ''](true),
+        };
+
+        function RG(params.inform) {
+            inform[RG:''](true),
+        };
+
+        function TituloEleitoral(params.inform) {
+            inform[TituloEleitoral: ''\ zona: '' seçao: ''](true),
+        };
+
+        function
+        if (params.inform) {
+            if (condition.CertificadoDeDispensaDeIncorporaçao) {
+                inform(1 º via)[CertificadoDeDispensaDeIncorporaçao\ RA: '']
+            } else {
+                inform 2 º Via = [CertificadoDeDispensaDeIncorporaçao\ RA: ''](true),
+            }
+        };
+
+        function PIS(params.inform) {
+            inform[PIS:''](true),
+        };
+
+        function SUS(params.inform) {
+            inform[SUS: ''](true),
+        };
+
+        function CEL(params.inform) {
+            inform[Vivo\ CEL: ''](true),
+        };
+
+        function BANCO(params.inform) {
+            if (condition.BANCO) {
+                inform BANCO: [Bradesco.SA\ Agencia: ''\ Conta: ''](true),
+            }
+        };
+
+        function BANCO(params.inform) {
+            if (condition.BANCO) {
+                inform BANCO: [CaixaEconomicaFederal\ Agencia: ''\ Poupança: ''\ Conta: ''](true),
+            }
+        };
+
+        function BANCO(params.inform) {
+            if (condition.BANCO) {
+                inform BANCO: [Banco do Brasil.SA\ Agencia: ''\ Conta:''](true),
+            }
+        };
+
+       
+
+        function CNPJ(params.inform) {
+            if (condition.return) {
+                inform[CNPJ:''](true),
+                    return [ProprietarioEmpresaTitularIndividual(''(true))],
+            }
+        };
+
+        function curso(params.inform) {
+            inform[''](true),
+        };
+
+        function curso(params.inform) {
+            inform[''](true),
+        };
+
+        function DoadorDeSangue(params.inform) {
+            inform[''](true),
+        };
+
+        function CarteiraProfissional(params.inform) {
+            inform[CarteiraProfissional\ Nº: ''\ SERIE: ''](true),
+        };
+
+        function CertidaoDeNascimento(params.inform) {
+            inform[CertidaoDeNascimento\ Nº: ''](true),
+        };
+
+        function Averbaçao(params.inform) {
+            inform[Averbaçao\: ''](true),
+        };
+
+        function CertidaoDeNascimento(filho(a))(params.inform) {
+            inform[CertidaoDeNascimento(filho(a))\'' \ DECL:''](true),
+        };
+
+        function CertidaoDeNascimento(filho(a))(params.inform) {
+            inform[CertidaoDeNascimento(filho(a))\ Nº: ''\ DECL: ''](true),
+        };
+
+        function CertidaoDeNascimento(Filho(a))(params.inform) {
+            inform[CertidaoDeNascimento(Filho(a))\ Nº: ''\ DECL: ''](true),
+        };
+    };
+};
