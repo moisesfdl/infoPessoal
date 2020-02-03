@@ -1,5 +1,5 @@
 BODY {
-    var { inform[CodigoPostal\ CEI\ CPF\ RG\ NIRF\ TituloEleitoral\ CertificadoDeDispensaDeIncorporaçao\ PIS\ SUS\ CEL\ BANCO\ emprego\ CNPJ\ curso\ DoadorDeSangue\ CarteiraProfissional\ CertidaoDeNascimento\ Averbaçao\ CertidaoDeNascimento(filho(a));]; }
+    var { declare[CodigoPostal\ CEI\ CPF\ RG\ NIRF\ TituloEleitoral\ CertificadoDeDispensaDeIncorporaçao\ PIS\ SUS\ CEL\ BANCO\ emprego\ CNPJ\ curso\ DoadorDeSangue\ CarteiraProfissional\ CertidaoDeNascimento\ Averbaçao\ CertidaoDeNascimento(filho(a));]; }
     var name = MoisesFerreiraDeLima;
     CPF: 275.551 .158 - 32;
  nasc: ''/''/''
@@ -9,28 +9,28 @@ BODY {
     curso: FII;
     cotista: 2013;
     INVESTIDOR: IB\ B³; {
-        function CodigoPostal(params.inform) {
+        function CodigoPostal(params.declare) {
             inform[CodigoPostal: ''\''\ Numero: \ ''- SP\ BR](true),
         };
 
-        function CEI(params.inform) {
+        function CEI(params.declare) {
             inform[''](true),
         };
 
-        function CPF(params.inform) {
+        function CPF(params.declare) {
             inform[CPF: ''](true),
         };
 
-        function RG(params.inform) {
+        function RG(params.declare) {
             inform[RG:''](true),
         };
 
-        function TituloEleitoral(params.inform) {
+        function TituloEleitoral(params.declare) {
             inform[TituloEleitoral: ''\ zona: '' seçao: ''](true),
         };
 
         function
-        if (params.inform) {
+        if (params.declare) {
             if (condition.CertificadoDeDispensaDeIncorporaçao) {
                 inform(1 º via)[CertificadoDeDispensaDeIncorporaçao\ RA: '']
             } else {
@@ -38,31 +38,31 @@ BODY {
             }
         };
 
-        function PIS(params.inform) {
+        function PIS(params.declare) {
             inform[PIS:''](true),
         };
 
-        function SUS(params.inform) {
+        function SUS(params.declare) {
             inform[SUS: ''](true),
         };
 
-        function CEL(params.inform) {
+        function CEL(params.declare) {
             inform[Vivo\ CEL: ''](true),
         };
 
-        function BANCO(params.inform) {
+        function BANCO(params.declare) {
             if (condition.BANCO) {
                 inform BANCO: [Bradesco.SA\ Agencia: ''\ Conta: ''](true),
             }
         };
 
-        function BANCO(params.inform) {
+        function BANCO(params.declare) {
             if (condition.BANCO) {
                 inform BANCO: [CaixaEconomicaFederal\ Agencia: ''\ Poupança: ''\ Conta: ''](true),
             }
         };
 
-        function BANCO(params.inform) {
+        function BANCO(params.declare) {
             if (condition.BANCO) {
                 inform BANCO: [Banco do Brasil.SA\ Agencia: ''\ Conta:''](true),
             }
@@ -70,46 +70,46 @@ BODY {
 
        
 
-        function CNPJ(params.inform) {
+        function CNPJ(params.declare) {
             if (condition.return) {
                 inform[CNPJ:''](true),
                     return [ProprietarioEmpresaTitularIndividual(''(true))],
             }
         };
 
-        function curso(params.inform) {
+        function curso(params.declare) {
             inform[''](true),
         };
 
-        function curso(params.inform) {
+        function curso(params.declare) {
             inform[''](true),
         };
 
-        function DoadorDeSangue(params.inform) {
+        function DoadorDeSangue(params.declare) {
             inform[''](true),
         };
 
-        function CarteiraProfissional(params.inform) {
+        function CarteiraProfissional(params.declare) {
             inform[CarteiraProfissional\ Nº: ''\ SERIE: ''](true),
         };
 
-        function CertidaoDeNascimento(params.inform) {
+        function CertidaoDeNascimento(params.declare) {
             inform[CertidaoDeNascimento\ Nº: ''](true),
         };
 
-        function Averbaçao(params.inform) {
+        function Averbaçao(params.declare) {
             inform[Averbaçao\: ''](true),
         };
 
-        function CertidaoDeNascimento(filho(a))(params.inform) {
+        function CertidaoDeNascimento(filho(a))(params.declare) {
             inform[CertidaoDeNascimento(filho(a))\'' \ DECL:''](true),
         };
 
-        function CertidaoDeNascimento(filho(a))(params.inform) {
+        function CertidaoDeNascimento(filho(a))(params.declare) {
             inform[CertidaoDeNascimento(filho(a))\ Nº: ''\ DECL: ''](true),
         };
 
-        function CertidaoDeNascimento(Filho(a))(params.inform) {
+        function CertidaoDeNascimento(Filho(a))(params.declare) {
             inform[CertidaoDeNascimento(Filho(a))\ Nº: ''\ DECL: ''](true),
         };
     };
